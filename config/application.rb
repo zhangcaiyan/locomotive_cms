@@ -65,18 +65,7 @@ module LocomotiveCms
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
-    config.action_mailer.default_url_options = {:host=> "www.wode520.com"}
-    config.action_mailer.delivery_method = :smtp
-    config.action_mailer.raise_delivery_errors = false
-    config.action_mailer.perform_deliveries = true
-    config.action_mailer.smtp_settings =  {
-      address: "smtp.163.com", 
-      port: 25,
-      user_name: "zhangcaiyan0123@163.com",
-      password: "zhangcaiyan",
-      authentication: :login,
-      enable_starttls_auto: false
-    }
+
 
   end
 end
